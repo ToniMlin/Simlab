@@ -392,7 +392,7 @@ class TSim : public TObject{
   TBranch        *b_dPhi_2nd;   //!
   
   
-   ClassDef(TSim,1);
+
 };
 
 

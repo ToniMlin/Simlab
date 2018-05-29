@@ -1,8 +1,6 @@
 #include "TLab.h"
 
-#if !defined(__CINT__)
-ClassImp(TLab)
-#endif
+
 
 // Default Constructor
 TLab::TLab( ) {

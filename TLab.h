@@ -177,7 +177,7 @@ class TLab : public TObject{
 
   TH1F *hr;
   
-  ClassDef(TLab,1);
+  /* ClassDef(TLab,1); */
 };
 
 #endif

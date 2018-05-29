@@ -45,7 +45,7 @@ class TTheory : public TObject{
   //======================
   //======================
   
-  ClassDef(TTheory,1);
+  /* ClassDef(TTheory,1); */
 };
 
 #endif

@@ -1,8 +1,6 @@
 #include "TSim.h"
 
-#if !defined(__CINT__)
-ClassImp(TSim)
-#endif
+
 
 TSim::TSim(){
 }
@@ -4009,7 +4007,7 @@ void TSim::SetStyle(){
   garyStyle->SetLegendBorderSize(0);
   garyStyle->SetLegendFillColor(0);
   garyStyle->SetLegendFont(42);
-  garyStyle->SetLegendTextSize(0.);  
+  //  garyStyle->SetLegendTextSize(0.);  
   
   gROOT->SetStyle("garyStyle");
   gROOT->ForceStyle();
